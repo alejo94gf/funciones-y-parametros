@@ -49,9 +49,10 @@ Las funciones y parámetros en Python son fundamentales para escribir código re
 
 # Ejemplo 
  -  Función para calcular valor absoluto
-def calcular_valor_absoluto(numero):
-    valor_absoluto = abs(numero)
-    print(f"El valor absoluto de {numero} es: {valor_absoluto}")
+
+----def calcular_valor_absoluto(numero):
+    ---valor_absoluto = abs(numero)
+    ----print(f"El valor absoluto de {numero} es: {valor_absoluto}")
 
 
  # Nota explicacion ejemplo
