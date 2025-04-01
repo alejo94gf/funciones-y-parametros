@@ -65,3 +65,30 @@ ciudad: Madrid
 
 Conclusión
 Las funciones y parámetros en Python son fundamentales para escribir código reutilizable, modular y eficiente.
+
+# ejemplo 
+# Función para calcular valor absoluto
+def calcular_valor_absoluto(numero):
+    valor_absoluto = abs(numero)
+    print(f"El valor absoluto de {numero} es: {valor_absoluto}")
+
+
+ # Nota explicacion ejemplo
+1. Definición de la función
+
+ def: Palabra clave para definir una función en Python.
+
+calcular_valor_absoluto: Nombre de la función.
+
+numero: float: Parámetro con type hint, lo que indica que numero debe ser de tipo float (aunque Python no lo obliga).
+
+-> float: Indica que la función devolverá un float.
+
+2Cálculo del valor absoluto
+
+
+abs(numero): Usa la función incorporada abs() de Python para obtener el valor absoluto del número.
+
+return: Devuelve el resultado, en lugar de imprimirlo directamente. Esto permite reutilizarlo en otros cálculos.
+
+
