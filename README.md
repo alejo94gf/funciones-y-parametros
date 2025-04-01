@@ -46,8 +46,7 @@ print(sumar_todos(1, 2, 3, 4))  # Salida: 10
 4 Kwargs (**kwargs): Permite pasar argumentos nombrados como un diccionario.
 
 python
-Copiar
-Editar
+
 def mostrar_info(**datos):
     for clave, valor in datos.items():
         print(f"{clave}: {valor}")
