@@ -3,6 +3,13 @@
 # funciones y Parámetros en Python: ¿Para qué y por qué se utilizan?
 Las funciones en Python son bloques de código reutilizables que ejecutan una tarea específica. Se usan para organizar, modularizar y optimizar el código.
 
+" nos sirve para   organizar el codigo sierve como deficion de un pproceso de entrada y salida en la progamación
+ sirve como serparador"
+ al declarar la funcion yo estableso un (Scope) el scope permite proteger el contendio real de las varabiables intermnamente sin que afecten las variables externas. 
+
+ las funciones pueden requerir  uno o muchos parametros  y eso debe afectar el scop interno de la funcion.
+ 
+
 # ¿Por qué se utilizan las funciones?
  Reutilización del código: Evitan la repetición de código, haciendo los programas más eficientes.
  Modularidad: Permiten dividir un programa en partes más manejables.
@@ -35,32 +42,7 @@ def saludar(nombre="Invitado"):
 
 saludar()  # Salida: Hola, Invitado!
 
-3 Args (*args): Permite pasar múltiples argumentos como una tupla.
 
-
-def sumar_todos(*numeros):
-    return sum(numeros)
-
-print(sumar_todos(1, 2, 3, 4))  # Salida: 10
-
-4 Kwargs (**kwargs): Permite pasar argumentos nombrados como un diccionario.
-
-python
-
-def mostrar_info(**datos):
-    for clave, valor in datos.items():
-        print(f"{clave}: {valor}")
-
-mostrar_info(nombre="Ana", edad=25, ciudad="Madrid")
-
-Salida:
-
-makefile
-Copiar
-Editar
-nombre: Ana  
-edad: 25  
-ciudad: Madrid  
 
 Conclusión
 Las funciones y parámetros en Python son fundamentales para escribir código reutilizable, modular y eficiente.
