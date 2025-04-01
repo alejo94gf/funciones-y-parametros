@@ -47,8 +47,8 @@ saludar()  # Salida: Hola, Invitado!
 Conclusión
 Las funciones y parámetros en Python son fundamentales para escribir código reutilizable, modular y eficiente.
 
-# ejemplo 
-# Función para calcular valor absoluto
+# Ejemplo 
+ -  Función para calcular valor absoluto
 def calcular_valor_absoluto(numero):
     valor_absoluto = abs(numero)
     print(f"El valor absoluto de {numero} es: {valor_absoluto}")
